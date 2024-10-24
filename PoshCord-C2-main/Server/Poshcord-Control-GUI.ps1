@@ -23,7 +23,7 @@ Add-Type -AssemblyName System.Drawing
 [System.Windows.Forms.Application]::EnableVisualStyles()
 
 # Variables for token and channel IDs
-$token = "MTI5ODY0OTAwNjA4MzQxMjA1MQ.G-umB5._DtdbG5BYVOZDG4DWjaYKtD-lwizbqs1pAjo3Y" # YOUR MAIN BOT TOKEN (USED FOR CLIENT)
+$token = "$tk1" # YOUR MAIN BOT TOKEN (USED FOR CLIENT)
 $token2 = "$tk2" # BOT TO SEND MESSAGES AS USER
 
 # ============================ SCRIPT SETUP =============================
